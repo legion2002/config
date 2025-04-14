@@ -1,0 +1,138 @@
+{
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "diffEditor.codeLens": true,
+  "editor.accessibilitySupport": "off",
+  "editor.fontSize": 17,
+  "editor.fontWeight": "normal",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.lineNumbers": "relative",
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.git": false,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "git.mergeEditor": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "solidity": false,
+    "yaml": false
+  },
+  "python.formatting.provider": "black",
+  "remote.SSH.remotePlatform": {
+    "192.168.2.250": "linux",
+    "192.168.83.128": "linux"
+  },
+  "settingsSync.ignoredSettings": ["solidity.formatter"],
+  "solidity.compileUsingRemoteVersion": "v0.8.30",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "solidity.telemetry": false,
+  "typescript.format.enable": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "haskell.manageHLS": "GHCup",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.activityBar.orientation": "vertical",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "<leader>", "j"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "after": ["^"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["x"],
+      "after": ["d"]
+    },
+    {
+      "before": ["g", "D"],
+      "commands": ["editor.action.revealDefinitionAside"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "after": ["$"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["x"],
+      "after": ["d"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "after": ["^"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "after": ["$"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "githubPullRequests.pullBranch": "never",
+  "solidity.formatter": "forge",
+  "solidity.remappings": ["solady/=lib/solady/src/"],
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "githubPullRequests.fileListLayout": "tree"
+}
