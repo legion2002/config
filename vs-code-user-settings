@@ -11,6 +11,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
   "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLines": 6,
   "files.autoSave": "afterDelay",
   "files.exclude": {
     "**/.classpath": true,
@@ -57,6 +58,9 @@
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
   "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 250,
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
@@ -94,15 +98,27 @@
       "after": ["d"]
     },
     {
+      "before": ["x", "x"],
+      "after": ["d", "d"]
+    },
+    {
       "before": ["g", "D"],
       "commands": ["editor.action.revealDefinitionAside"]
     },
     {
       "before": ["<leader>", "e"],
       "after": ["$"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.view.explorer"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["x", "x"],
+      "after": ["d", "d"]
+    },
     {
       "before": ["d"],
       "after": ["\"", "_", "d"]
